@@ -1,0 +1,5 @@
+1、找出下图中所有轴对称图形，它们是(  )。\n
+A、<img src="scnu.png" border="0" align="absmiddle">\n
+B、<img src="nameOne.jpg" border="0" align="absmiddle">\n
+C、<img src="nameOne.jpg" border="0" align="absmiddle">\n
+D、<img src="nameOne.jpg" border="0" align="absmiddle">

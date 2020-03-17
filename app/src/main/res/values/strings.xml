@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">BiYeSheJi</string>
+    <string name="start">start</string>
+    <string name="stop">stop</string>
+
+
+
+    <!--    home-->
+    <string name="home_label_title">华师校区导游</string>
+    <string name="home_label_sceneSpotIntroduce">校区概况</string>
+    <string name="home_label_planPath">线路规划</string>
+    <string name="home_label_sceneMap">当前位置地图</string>
+    <string name="home_label_sceneQuery">景点查询</string>
+    <string name="home_label_facilityQuery">设施查询</string>
+    <string name="home_label_infoService">信息服务</string>
+    <string name="home_label_sceneScan">景点扫描</string>
+    <string name="home_label_moreService">更多服务</string>
+    <string name="home_label_sceneActivity">景区活动推送：马拉松阅读</string>
+
+
+    <!--    introduction-->
+
+    <!--    recommendWayByGoods-->
+    <string name="recommendWay_label_title">基于参观景点的路线推荐</string>
+    <string name="recommendWay_label_searchSence">搜索景点</string>
+    <string name="recommendWay_button_search">搜索</string>
+    <string name="recommendWay_label_AllSences">全部景点</string>
+    <string name="recommendWay_label_visitSence">参观景点</string>
+
+    <!--    Map-->
+    <string name="map_label_title">华师景区地图</string>
+    <!--    quary-->
+    <string name="query_label_title">景点查询</string>
+    <string name="query_label_search">搜索景点</string>
+    <string name="query_label_AllSceneSpot">全部景点</string>
+    <string name="query_button_search">搜索</string>
+    <string name="query_button_view_all_scene">查看全部景点</string>
+    <string name="query_go_these_place">去这些地方</string>
+
+
+    <!--    guide-->
+    <string name="guide_label_title">导航</string>
+    <string name="guide_label_begin">出发地：</string>
+    <string name="guide_label_stop">目的地：</string>
+    <string name="guide_button_driver">驾车</string>
+    <string name="guide_button_bus">公交</string>
+    <string name="guide_button_walk">步行</string>
+    <string name="guide_button_ride">骑行</string>
+    <string name="guide_label_time">时间</string>
+    <string name="guide_button_beginGuide">开始导航</string>
+    <!--    设施查询-->
+    <string name="facility_query_rent_classroom">借用课室</string>
+    <string name="facility_query_rent_classroom_introduction">借用课室介绍</string>
+    <string name="facility_query_mass_organization_query">社团查询</string>
+    <string name="facility_query_mass_organization_query_introduction">社团查询介绍</string>
+    <string name="facility_query_stadium">体育场</string>
+    <string name="facility_query_stadium_introduction">体育场介绍</string>
+    <string name="facility_query_canteen">食堂</string>
+    <string name="facility_query_canteen_introduction">食堂介绍</string>
+    <!--info service -->
+    <string name="infoservice_taoyuan">陶园论坛</string>
+    <string name="infoservice_taoyuan_introduction">陶园论坛简介</string>
+    <string name="infoservice_activity_dushu">马拉松读书活动</string>
+    <string name="infoservice_activity_dushu_introduction">马拉松读书活动简介</string>
+    <!--    more service-->
+    <string name="more_service_about">关于本产品</string>
+    <string name="more_service_about_introduction">雷凡的毕业设计——导游系统设计</string>
+    <string name="more_service_Tel">联系电话</string>
+    <string name="more_service_Tel_introduction">15521422340</string>
+
+
+
+
+
+</resources>

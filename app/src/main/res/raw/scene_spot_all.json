@@ -1,0 +1,59 @@
+{
+  "教学科研机构": [
+    {
+      "name": "教育科学学院",
+      "school":"石牌校区",
+      "code":10100,
+      "intro":"教育科学学院简介",
+      "introduce":"image_html.txt"
+    },
+    {
+      "name": "哲学与社会发展学院",
+      "school":"石牌校区",
+      "code":10101,
+      "intro":"哲学与社会发展学院简介",
+      "introduce":"xuexiao_introduction.txt"
+    },
+    {
+      "name": "马克思主义学院",
+      "school":"石牌校区",
+      "code":10102,
+      "intro":"马克思主义学院简介",
+      "introduce":"xuexiao_introduction.txt"
+    },
+    {
+      "name": "文学院",
+      "school":"大学城校区",
+      "code":10000,
+      "intro":"文学院简介",
+      "introduce":"xuexiao_introduction.txt"
+    },
+    {
+      "name": "经济与管理学院",
+      "school":"大学城校区",
+      "code":10001,
+      "intro":"经济与管理学院简介",
+      "introduce":"xuexiao_introduction.txt"
+    },
+    {
+      "name": "法学院",
+      "school":"大学城校区",
+      "code":10002,
+      "intro":"法学院简介",
+      "introduce":"xuexiao_introduction.txt"
+    }
+  ],
+  "党政职能部门":[
+    {
+      "name": "党委组织部",
+      "intro":"党委组织部简介",
+      "introduce":"xuexiao_introduction.txt"
+    },
+    {
+      "name": "机关党委",
+      "intro":"机关党委简介",
+      "introduce":"xuexiao_introduction.txt"
+    }
+  ]
+
+}

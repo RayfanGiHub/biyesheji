@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/home_label_title">
+    </TextView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+                <!--        第一行-->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center_horizontal">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="50dp"
+                        android:gravity="center_vertical">
+
+                        <LinearLayout
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical">
+                            <ImageButton
+                                android:id="@+id/home_button_sceneSpotIntroduce"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:scaleType="centerCrop"
+                                android:contentDescription="@string/home_label_sceneSpotIntroduce"
+                                app:srcCompat="@drawable/scnu_icon_3"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:text="@string/home_label_sceneSpotIntroduce" />
+                        </LinearLayout>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical">
+
+                        <LinearLayout
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical">
+                            <ImageButton
+                                android:id="@+id/home_button_planPath"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:scaleType="centerCrop"
+                                android:contentDescription="@string/home_label_planPath"
+                                app:srcCompat="@drawable/location_icon"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:text="@string/home_label_planPath" />
+                        </LinearLayout>
+                    </TableRow>
+                </TableRow>
+
+                <!--        第二行-->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center_horizontal">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="50dp"
+                        android:gravity="center_vertical">
+
+                        <LinearLayout
+                            android:layout_height="wrap_content"
+
+                            android:gravity="center_vertical"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/home_button_sceneMap"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:scaleType="centerCrop"
+                                android:contentDescription="@string/home_label_sceneMap"
+                                app:srcCompat="@drawable/baidumap_icon"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:text="@string/home_label_sceneMap" />
+                        </LinearLayout>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical">
+
+                        <LinearLayout
+                            android:layout_height="wrap_content"
+
+                            android:gravity="center_vertical"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/home_button_sceneQuery"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:scaleType="centerCrop"
+                                android:contentDescription="@string/home_label_sceneQuery"
+                                app:srcCompat="@drawable/scnu_lake"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:text="@string/home_label_sceneQuery" />
+                        </LinearLayout>
+                    </TableRow>
+                </TableRow>
+
+                <!--        第三行-->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center_horizontal">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="50dp"
+                        android:gravity="center_vertical">
+
+                        <LinearLayout
+                            android:layout_height="wrap_content"
+
+                            android:gravity="center_vertical"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/home_button_facilityQuery"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:scaleType="centerCrop"
+                                android:contentDescription="@string/home_label_facilityQuery"
+                                app:srcCompat="@drawable/scnu_lake"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:text="@string/home_label_facilityQuery" />
+                        </LinearLayout>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical">
+
+                        <LinearLayout
+                            android:layout_height="wrap_content"
+
+                            android:gravity="center_vertical"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/home_button_infoService"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:scaleType="centerCrop"
+                                android:contentDescription="@string/home_label_infoService"
+                                app:srcCompat="@drawable/scnu_lake"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:text="@string/home_label_infoService" />
+                        </LinearLayout>
+                    </TableRow>
+                </TableRow>
+
+                <!--        第四行-->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center_horizontal">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="50dp"
+                        android:gravity="center_vertical">
+
+                        <LinearLayout
+                            android:layout_height="wrap_content"
+
+                            android:gravity="center_vertical"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/home_button_sceneScan"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:scaleType="centerCrop"
+                                android:contentDescription="@string/home_label_sceneScan"
+                                app:srcCompat="@drawable/scnu_lake"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:text="@string/home_label_sceneScan" />
+                        </LinearLayout>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical">
+
+                        <LinearLayout
+                            android:layout_height="wrap_content"
+
+                            android:gravity="center_vertical"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/home_button_moreService"
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:scaleType="centerCrop"
+                                android:contentDescription="@string/home_label_moreService"
+                                app:srcCompat="@drawable/setting_icon"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:text="@string/home_label_moreService" />
+                        </LinearLayout>
+                    </TableRow>
+                </TableRow>
+
+            </TableLayout>
+            <TextView
+                android:id="@+id/home_label_sceneActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/home_label_sceneActivity">
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
